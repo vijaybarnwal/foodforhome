@@ -38,3 +38,13 @@ foodMeApp.config(function($routeProvider) {
       	templateUrl: 'views/contact.html'
       });
 });
+
+/*
+foodMeApp.controller('NavbarController', function NavbarController($scope, $location) {
+	
+  $scope.routeIs = function(routeName) {
+    return $location.path() === routeName;
+  };
+
+});*/
+

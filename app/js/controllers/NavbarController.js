@@ -1,5 +1,6 @@
 'use strict';
 
+
 foodMeApp.controller('NavbarController', function NavbarController($scope, $location) {
 
   $scope.routeIs = function(routeName) {
@@ -7,3 +8,4 @@ foodMeApp.controller('NavbarController', function NavbarController($scope, $loca
   };
 
 });
+
